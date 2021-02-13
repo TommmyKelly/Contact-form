@@ -47,7 +47,11 @@ const Contact = ({ contact }) => {
           </Card.Text>
 
           <a href={`mailto:${contact.email}`}>
-            <Button className='w-100' variant='dark'>
+            <Button
+              style={{ borderRadius: "20px" }}
+              className='w-100 '
+              variant='primary'
+            >
               Contact
             </Button>
           </a>
