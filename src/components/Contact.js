@@ -41,7 +41,7 @@ const Contact = ({ contact }) => {
           <Card.Text>
             <div>{contact.phone}</div>
           </Card.Text>
-          <Card.Subtitle className='mb-2 text-muted'>Emial</Card.Subtitle>
+          <Card.Subtitle className='mb-2 text-muted'>Email</Card.Subtitle>
           <Card.Text>
             <div>{contact.email}</div>
           </Card.Text>
