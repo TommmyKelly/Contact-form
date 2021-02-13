@@ -48,7 +48,7 @@ const Contact = ({ contact }) => {
 
           <a href={`mailto:${contact.email}`}>
             <Button className='w-100' variant='dark'>
-              Contact test
+              Contact
             </Button>
           </a>
         </Card.Body>
